@@ -12,6 +12,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/bootstrap3-editable/js/bootstrap-editable.min.js"></script>
 <script src="http://underscorejs.org/underscore-min.js"></script>
 <script src="http://backbonejs.org/backbone-min.js"></script>
+<script src="https://togetherjs.com/togetherjs-min.js"></script>
 
 <script type="text/jsx" src="/js/sample.jsx"></script>
 <script type="text/jsx" src="/js/queue.jsx"></script>
@@ -127,6 +128,7 @@ $( document ).ready(function() {
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <p class="navbar-text" id="loggedin"></p>
       <ul class="nav navbar-nav navbar-right">
+         <button onclick="TogetherJS(this); return false;">Start TogetherJS</button>
          <button type="button" class="btn btn-default navbar-btn" onClick="logout();">Logout</button>
       </ul>
     </div><!-- /.navbar-collapse -->
