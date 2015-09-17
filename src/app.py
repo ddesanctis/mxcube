@@ -12,7 +12,7 @@ import socket
 
 import gevent
 import gevent.event
-from gevent import monkey; monkey.patch_all()
+from gevent import monkey; monkey.patch_all(thread=False)
 from gevent import sleep
  
 from PIL import Image
